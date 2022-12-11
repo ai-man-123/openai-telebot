@@ -40,8 +40,8 @@ https://t.me/${bot.botInfo.username.toLowerCase()}`;
 
     reply(chatId, `Hai 👋\n\nSaya adalah Robot AI untuk menjawab pertanyaan anda, Silahkan kirim Pertanyaan kamu, nanti jawaban kamu akan dijawab oleh robot.\n\n_AI (Artificial Intelligence) adalah teknologi yang menggunakan algoritma kompleks untuk membuat mesin yang dapat berpikir dan bertindak seperti manusia. AI dapat digunakan untuk menyelesaikan masalah yang rumit dan membuat keputusan yang lebih tepat daripada manusia. AI juga dapat digunakan untuk menganalisis data dan mengambil keputusan berdasarkan data tersebut. AI juga dapat digunakan untuk meningkatkan produktivitas dan efisiensi, serta membantu manusia dalam menyelesaikan tugas-tugas yang rumit._\n\n_bot dibatasi menjawab maximal ${MAX_TOKEN} kata_\n\n*Created by @caliphdev*`, messageId, { parse_mode: "Markdown", reply_markup: {
     inline_keyboard: [
-      [{ text: '💌 Owner', url: "https://t.me/caliphdev" }, { text: "🔗 Source Code", url: "https://github.com/caliphdev/openai-telebot" }],
-      [{ text: "❤️ Share Bot ini", url: "https://t.me/share/url?"+new URLSearchParams({ text: shareText }) }]
+      [{ text: '💌 Owner', url: "https://t.me/aiman1_23" }, { text: "🔗 Source Code", url: "https://github.com/ai-man-123/openai-telebot" }],
+      [{ text: "🗿 Share Bot ini", url: "https://t.me/share/url?"+new URLSearchParams({ text: shareText }) }]
     ]
   } });
     break;
